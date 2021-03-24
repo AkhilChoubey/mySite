@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Montserrat:wght@100&family=Sacramento&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="icon" href="/css/favicon.ico">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akhil Kr Choubey</title>
+</head>
+
+<body>
+    <div class="top">
+        <img class="top-cloud" src="/images/cloud.png" alt="cloud image">
+        <h1>I'am Akhil</h1>
+        <h2>A Web Developer</h2>
+        <img class="buttom-cloud" src="/images/cloud.png" alt="cloud image">
+        <img src="/images/mountain.png" alt="mountain image">
+    </div>
+    
+<div class="middle-container">
+    <div class="profile">
+      <img class="profile" src="/images/cartoon.png" alt="">
+      <h2>Akhil Kr Choubey</h2>
+      <p class="intro">I am an web developer . Currently pursuing my CS from LPU.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+   
+   <img class="fullstack" src="/images/giphy.gif" alt="">
+        <h3>I am a Web developer</h3>
+        <p>I am an full stack MERN Web developer.</p>
+      </div>
+      <div class="skill-row">
+        <img class="cpp" src="/images/200w.webp" alt="">
+        
+        <h3>C++ Programmer</h3>
+        <p>I usually use cpp as my core language for programming , also comfortable with Python , Java and C languages.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>Let's collab and code together.</h3>
+      <p class="contact-message">Which is your fav avenger moment? Let's talk about that and many more.</p>
+      <a class="btn" href="mailto:akhilchoubeys@gmail.com">CONTACT ME</a>
+    </div>
+  </div>
+  
+  
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/akhil-choubey-376887192">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/AkhilChoubey1?s=08">Twitter</a>
+    <a class="footer-link" href="https://www.hackerrank.com/akhilchoubeys">HackerRank</a>
+    <p class="copyright">©2021 AkhilChoubey.</p>
+  </div>
+  
+  <a class="top-link hide" href="" id="js-top">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6"><path d="M12 6H0l6-6z"/></svg>
+    <span class="screen-reader-text">Back to top</span>
+  </a>
+<script>
+  // Set a variable for our button element.
+const scrollToTopButton = document.getElementById('js-top');
+
+// Let's set up a function that shows our scroll-to-top button if we scroll beyond the height of the initial window.
+const scrollFunc = () => {
+  // Get the current scroll value
+  let y = window.scrollY;
+  
+  // If the scroll value is greater than the window height, let's add a class to the scroll-to-top button to show it!
+  if (y > 0) {
+    scrollToTopButton.className = "top-link show";
+  } else {
+    scrollToTopButton.className = "top-link hide";
+  }
+};
+
+window.addEventListener("scroll", scrollFunc);
+
+const scrollToTop = () => {
+  // Let's set a variable for the number of pixels we are from the top of the document.
+  const c = document.documentElement.scrollTop || document.body.scrollTop;
+  
+  // If that number is greater than 0, we'll scroll back to 0, or the top of the document.
+  // We'll also animate that scroll with requestAnimationFrame:
+  // https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame
+  if (c > 0) {
+    window.requestAnimationFrame(scrollToTop);
+    // ScrollTo takes an x and a y coordinate.
+    // Increase the '10' value to get a smoother/slower scroll!
+    window.scrollTo(0, c - c / 10);
+  }
+};
+
+// When the button is clicked, run our ScrolltoTop function above!
+scrollToTopButton.onclick = function(e) {
+  e.preventDefault();
+  scrollToTop();
+}
+</script>
+    
+
+</body>
+
+</html>
