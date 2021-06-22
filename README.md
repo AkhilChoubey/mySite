@@ -2,7 +2,7 @@
 
 This is my Portfolio Site made using HTML and CSS.
 
-Link to the website -- [link to weather App!](https://akhilweather.herokuapp.com/)
+Link to the website -- Portfolio website!](https://akhilchoubey.github.io/mySite/)
 
 <!--
 **AkhilChoubey/AkhilChoubey** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
