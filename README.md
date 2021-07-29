@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-This is my Portfolio Site made using HTML and CSS  .
+This is my Portfolio Site made using HTML and CSS .
 
 Link to the website -- [Portfolio website!](https://akhilchoubey.github.io/mySite/)
 
