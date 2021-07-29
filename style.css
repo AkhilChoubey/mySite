@@ -1,0 +1,211 @@
+
+body{
+    color: #40514E;
+    margin:0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    color: #66BFBF;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+h2{
+    color: #66BFBF;
+    font-size: 2.5rem;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
+}
+h3{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    line-height: 2;
+}
+
+hr{
+    border: dotted #d6d4d4 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+/*.intro{
+    width: 30%;
+}
+*/
+a {
+    color: #11999f;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: #eaf6f6;
+}
+.top{
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+    
+}
+.middle-container{
+    margin:100px 0;
+}
+
+.bottom-container{
+background-color: #66bfbf;
+padding: 50px 0 20px;
+}
+
+.buttom-cloud{
+    position: absolute;
+    left: 90px;
+    bottom: 550px;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+/*refine 2 , biscuit , mixture , tea , dove , aulla tel , fair lovely .*/
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.cpp{
+    width: 25%;
+    float: right;
+    margin-left: 16px;
+    
+}
+.fullstack{
+    width: 25%;
+    float: left;
+    margin-right: 16px;
+}
+.profile{
+    width: 37%;
+    margin: 0 auto 0 auto;
+}
+
+.contact-message{
+    width: 40%;
+    margin:40px auto 60px;
+}
+.btn {
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999A);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999A);
+    background-image: -ms-linear-gradient(top, #11CDD4, #11999A);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999A);
+    background-image: linear-gradient(to bottom, #11CDD4, #11999A);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30E3CB;
+    background-image: -webkit-linear-gradient(top, #30E3CB, #2BC48D);
+    background-image: -moz-linear-gradient(top, #30E3CB, #2BC48D);
+    background-image: -ms-linear-gradient(top, #30E3CB, #2BC48D);
+    background-image: -o-linear-gradient(top, #30E3CB, #2BC48D);
+    background-image: linear-gradient(to bottom, #30E3CB, #2BC48D);
+    text-decoration: none;
+  }
+
+  .copyright{
+      color: #eaf6f6;
+      font-size: 0.75rem;
+      padding: 20px 0;
+  }
+
+  .top-link {
+    transition: all .25s ease-in-out;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: inline-flex;
+    
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    margin: 0 3em 3em 0;
+    border-radius: 50%;
+    padding: .25em;
+    width: 80px;
+    height: 80px;
+    background-color: #F8F8F8;
+  }
+    .top-link.show {
+      visibility: visible;
+      opacity: 1;
+    }
+    
+    .top-link.hide {
+      visibility: hidden;
+      opacity: 0;
+    }
+  
+    svg {
+      fill: #000;
+      width: 24px;
+      height: 12px;
+    }
+  
+    .top-link:hover {
+      background-color: #E8E8E8;
+    }
+      .top-link:hover svg {
+        fill: #000000;
+      }
+    
+  
+  
+  
+  .screen-reader-text {
+    position: absolute;
+    clip-path: inset(50%);
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    word-wrap: normal !important;
+    clip: rect(1px, 1px, 1px, 1px);
+  }
+    .screen-reader-text:focus {
+      display: block;
+      top: 5px;
+      left: 5px;
+      z-index: 100000; 
+      clip-path: none;
+      background-color: #eee;
+      padding: 15px 23px 14px;
+      width: auto;
+      height: auto;
+      text-decoration: none;
+      line-height: normal;
+      color: #444;
+      font-size: 1em;
+      clip: auto !important;
+    }
+  
+.mountain-img{
+width: 50%;
+}
+    
